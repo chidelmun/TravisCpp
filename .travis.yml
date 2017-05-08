@@ -1,6 +1,9 @@
 language :cpp
 compiler :
-  - gcc
-  - g++
   - clang
+os :
+  -osx
+
+script:
+  g++ -o main code.cc
   

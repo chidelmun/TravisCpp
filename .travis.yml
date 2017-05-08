@@ -3,8 +3,16 @@ language : C++
 os:
   - linux
   - osx
+notifications:
+  email: false
+  irc:
+    channels:
+    - chat.freenode.net#rubinius
+    template:
+    - "%{repository}/%{branch} (%{commit} - %{author}): %{build_url}: %{message}"
   
 
 script : g++ -o main code.cc
+
   
   

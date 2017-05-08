@@ -7,7 +7,7 @@ notifications:
   email: false
   irc:
     channels:
-    - chat.freenode.net#rubinius
+    - chat.freenode.net#ublab
     template:
     - "%{repository}/%{branch} (%{commit} - %{author}): %{build_url}: %{message}"
   

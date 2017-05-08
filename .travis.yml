@@ -1,6 +1,8 @@
 language : C++
 # compiler : clang
-os : osx
+os:
+  - linux
+  - osx
   
 
 script : g++ -o main code.cc
